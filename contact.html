@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TD Fitness | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>TD Fitness</h1>
+    <p>Contact page and feedback form</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="workouts.html">Workouts</a>
+    <a href="schedule.html">Plans & Schedule</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>Fitness Feedback Form</h2>
+      <form action="#" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+
+        <label for="goal">Main Fitness Goal</label>
+        <select id="goal" name="goal">
+          <option value="">Choose one</option>
+          <option value="strength">Build Strength</option>
+          <option value="weightloss">Lose Weight</option>
+          <option value="endurance">Improve Endurance</option>
+          <option value="health">Stay Healthy</option>
+        </select>
+
+        <fieldset>
+          <legend>How often do you work out?</legend>
+          <div class="radio-group">
+            <input type="radio" id="two" name="frequency" value="1-2">
+            <label for="two">1 to 2 days a week</label>
+
+            <input type="radio" id="three" name="frequency" value="3-4">
+            <label for="three">3 to 4 days a week</label>
+
+            <input type="radio" id="five" name="frequency" value="5+">
+            <label for="five">5 or more days a week</label>
+          </div>
+        </fieldset>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" placeholder="Share your workout thoughts here..."></textarea>
+
+        <div class="button-row">
+          <button type="submit" class="submit-btn">Submit</button>
+          <button type="reset" class="reset-btn">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:tillusd0733@student.faytechcc.edu">tillusd0733@student.faytechcc.edu</a></p>
+      <p>Website Topic: Personal Gym and Fitness</p>
+      <p>Created for WHW2</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 TD Fitness | <a href="mailto:tillusd0733@student.faytechcc.edu">Email Me</a></p>
+  </footer>
+</body>
+</html>

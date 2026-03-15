@@ -1,0 +1,124 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #1f2933;
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(90deg, #111827, #1f2937);
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+}
+nav {
+  background: #e63946;
+  text-align: center;
+  padding: 14px 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 14px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 1050px;
+  margin: 24px auto;
+  padding: 0 18px 30px;
+}
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+.hero-img, .page-img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 22px auto;
+  border-radius: 14px;
+  border: 4px solid #e63946;
+}
+ul, ol { padding-left: 24px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background: #111827;
+  color: white;
+}
+tr:nth-child(even) { background: #eef2f7; }
+form {
+  background: #dbeafe;
+  padding: 20px;
+  border-radius: 12px;
+}
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+}
+fieldset {
+  margin-top: 16px;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  padding: 12px;
+}
+.radio-group label {
+  display: inline-block;
+  font-weight: normal;
+  margin: 0 16px 0 6px;
+}
+textarea {
+  min-height: 120px;
+  background: #fef3c7;
+}
+.button-row {
+  margin-top: 18px;
+}
+.submit-btn, .reset-btn {
+  border: none;
+  padding: 11px 18px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.submit-btn { background: #16a34a; }
+.reset-btn { background: #f97316; }
+iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+footer a { color: #93c5fd; }
